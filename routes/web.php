@@ -22,4 +22,4 @@ Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-Route::resource('/registros/usuarios', \App\Http\Controllers\UsersController::class);
+Route::resource('/usuarios', \App\Http\Controllers\UsersController::class);
