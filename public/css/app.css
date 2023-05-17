@@ -1447,6 +1447,7 @@ textarea.form-control {
   background-color: rgba(12, 194, 126, 0.9);
   border-radius: 0.25rem; }
 
+/*noinspection ALL*/
 .was-validated .form-control:valid, .form-control.is-valid {
   border-color: #0CC27E;
   padding-right: calc(1.5em + 0.75rem);
@@ -2376,7 +2377,7 @@ input[type="button"].btn-block {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center; }
-  
+
   .btn-group-vertical > .btn,
   .fc .btn-group-vertical > button,
   .btn-group-vertical > .btn-group {
@@ -4107,18 +4108,18 @@ a.close.disabled {
   border-radius: 0.3rem;
   outline: 0; }
 
-.modal-backdrop {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 1040;
-  width: 100vw;
-  height: 100vh;
-  background-color: #000; }
-  .modal-backdrop.fade {
-    opacity: 0; }
-  .modal-backdrop.show {
-    opacity: 0.5; }
+/*.modal-backdrop {*/
+/*  position: fixed;*/
+/*  top: 0;*/
+/*  left: 0;*/
+/*  z-index: 1040;*/
+/*  width: 100vw;*/
+/*  height: 100vh;*/
+/*  background-color: #000; }*/
+/*  .modal-backdrop.fade {*/
+/*    opacity: 0; }*/
+/*  .modal-backdrop.show {*/
+/*    opacity: 0.5; }*/
 
 .modal-header {
   display: flex;
@@ -29303,8 +29304,8 @@ select.form-control {
   padding-top: 0 !important;
   padding-bottom: 0 !important; }
 
-/* 
-TODO:M: To check with latest bootstrap version and remove it. 
+/*
+TODO:M: To check with latest bootstrap version and remove it.
 Bootstrap Enhance */
 .custom-control {
   display: block; }
@@ -29960,7 +29961,7 @@ ngb-accordion .card {
 		position: fixed;
     	z-index: 999;
     	background: $white;
-    	width: 291px;    	
+    	width: 291px;
     	padding: 1rem;
     	fieldset{
     		border-bottom: 1px solid $sideber-border;
@@ -38080,7 +38081,7 @@ bootstrap table theme
 .lineChart1Shadow {
   -webkit-filter: drop-shadow(0px 20px 6px rgba(0, 0, 0, 0.3));
   filter: drop-shadow(0px 20px 6px rgba(0, 0, 0, 0.3));
-  /* Same syntax as box-shadow, except 
+  /* Same syntax as box-shadow, except
                                                        for the spread property */ }
 
 .lineChart2 .ct-point-circle {
@@ -38100,7 +38101,7 @@ bootstrap table theme
 .shadow {
   -webkit-filter: drop-shadow(0px 25px 8px rgba(0, 0, 0, 0.3));
   filter: drop-shadow(0px 25px 8px rgba(0, 0, 0, 0.3));
-  /* Same syntax as box-shadow, except 
+  /* Same syntax as box-shadow, except
                                                        for the spread property */ }
 
 .ct-grid {
@@ -38176,7 +38177,7 @@ bootstrap table theme
 .lineChartShadow {
   -webkit-filter: drop-shadow(0px 25px 8px rgba(0, 0, 0, 0.3));
   filter: drop-shadow(0px 25px 8px rgba(0, 0, 0, 0.3));
-  /* Same syntax as box-shadow, except 
+  /* Same syntax as box-shadow, except
                                                        for the spread property */ }
 
 .donut .ct-done .ct-slice-donut {
@@ -38216,7 +38217,7 @@ bootstrap table theme
 .BarChartShadow {
   -webkit-filter: drop-shadow(0px 20px 8px rgba(0, 0, 0, 0.3));
   filter: drop-shadow(0px 20px 8px rgba(0, 0, 0, 0.3));
-  /* Same syntax as box-shadow, except 
+  /* Same syntax as box-shadow, except
                                                        for the spread property */ }
 
 .WidgetlineChart .ct-point {
@@ -38232,7 +38233,7 @@ bootstrap table theme
 .WidgetlineChartshadow {
   -webkit-filter: drop-shadow(0px 15px 5px rgba(0, 0, 0, 0.8));
   filter: drop-shadow(0px 15px 5px rgba(0, 0, 0, 0.8));
-  /* Same syntax as box-shadow, except 
+  /* Same syntax as box-shadow, except
                                                        for the spread property */ }
 
 .ct-grid {
@@ -38262,7 +38263,7 @@ bootstrap table theme
 .WidgetlineChart1Shadow {
   -webkit-filter: drop-shadow(0px 20px 5px rgba(0, 0, 0, 0.3));
   filter: drop-shadow(0px 20px 5px rgba(0, 0, 0, 0.3));
-  /* Same syntax as box-shadow, except 
+  /* Same syntax as box-shadow, except
                                                        for the spread property */ }
 
 .WidgetlineChart2 .ct-point {
@@ -38278,7 +38279,7 @@ bootstrap table theme
 .WidgetlineChart2Shadow {
   -webkit-filter: drop-shadow(0px 20px 5px rgba(0, 0, 0, 0.3));
   filter: drop-shadow(0px 20px 5px rgba(0, 0, 0, 0.3));
-  /* Same syntax as box-shadow, except 
+  /* Same syntax as box-shadow, except
                                                        for the spread property */ }
 
 .donut1 .ct-label {
@@ -38355,7 +38356,7 @@ bootstrap table theme
 .lineChart2Shadow {
   -webkit-filter: drop-shadow(0px 25px 8px rgba(0, 0, 0, 0.3));
   filter: drop-shadow(0px 25px 8px rgba(0, 0, 0, 0.3));
-  /* Same syntax as box-shadow, except 
+  /* Same syntax as box-shadow, except
                                                        for the spread property */ }
 
 .lineChart1 .ct-line {
@@ -38368,7 +38369,7 @@ bootstrap table theme
 .lineChart1Shadow {
   -webkit-filter: drop-shadow(0px 20px 6px rgba(0, 0, 0, 0.3));
   filter: drop-shadow(0px 20px 6px rgba(0, 0, 0, 0.3));
-  /* Same syntax as box-shadow, except 
+  /* Same syntax as box-shadow, except
                                                        for the spread property */ }
 
 .range_inputs button {

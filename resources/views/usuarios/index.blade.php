@@ -3,7 +3,7 @@
 
     <h1>Administrar Usuarios</h1>
 
-{{--    @include('seguridad.usuario.search')--}}
+    @include('usuarios.search')
 
     <a href="" data-target="#modal-create-usuario" data-toggle="modal"><button class="au-btn au-btn-icon au-btn--green au-btn--small btn btn-success">
             Agregar Usuario</button></a>
@@ -40,7 +40,7 @@
             </tbody>
         </table>
     </div>
-{{--    @include('seguridad.usuario.create')--}}
-{{--    {{$usuarios->links()}}--}}
+    @include('usuarios.create')
+    {{$usuarios->links()}}
 
 @stop
